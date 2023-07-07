@@ -42,18 +42,18 @@
                <div class="row d_flex">
                   <div class=" col-md-3 col-sm-3">
                      <div class="logo">
-                        <a href="index.html">Bliss</a>
+                        <a href="index.php">Bliss</a>
                      </div>
                   </div>
                   <div class="col-md-9 col-sm-9">
                      <div class="navbar-area">
                         <nav class="site-navbar">
                            <ul>
-                              <li><a class="active" href="index.html">Home</a></li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="service.html">Service</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                              <li><a href="contact.html">Contact us</a></li>
+                              <li><a class="active" href="index.php">Home</a></li>
+                              <li><a href="about.php">About</a></li>
+                              <li><a href="service.php">Service</a></li>
+                              <li><a href="blog.php">Blog</a></li>
+                              <li><a href="contact.php">Contact us</a></li>
                               <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                               <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                            </ul>
@@ -94,7 +94,7 @@
                                  <div class="row mar_right">
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img1.png" alt="#"/></figure>
+                                          <figure><img src="images/manicure.jpg" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
@@ -102,7 +102,7 @@
                                     </div>
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img2.png" alt="#"/></figure>
+                                          <figure><img src="images/deluxe-manicure.jpg" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
@@ -123,15 +123,15 @@
                                  <div class="creative">
                                     <h1>Deluxe <br>Pedicure </h1>
                                     <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
-                                    <a class="read_more" href="Javascript:void(0)">Contact us</a>
-                                    <a class="read_more" href="Javascript:void(0)">Read More</a>
+                                    <a class="read_more" href="contact.php">Contact us</a>
+                                    <a class="read_more" href="service.php">Read More</a>
                                  </div>
                               </div>
                               <div class="col-md-7">
                                  <div class="row mar_right">
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img1.png" alt="#"/></figure>
+                                          <figure><img src="images/pedicure.jpg" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img2.png" alt="#"/></figure>
+                                          <figure><img src="images/deluxe-pedi.avif" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
@@ -158,17 +158,17 @@
                            <div class="row d_flex">
                               <div class="col-md-5">
                                  <div class="creative">
-                                    <h1>Spa <br>Center </h1>
+                                    <h1>Waxing <br>Facial </h1>
                                     <p>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
-                                    <a class="read_more" href="Javascript:void(0)">Contact us</a>
-                                    <a class="read_more" href="Javascript:void(0)">Read More</a>
+                                    <a class="read_more" href="contact.php">Contact us</a>
+                                    <a class="read_more" href="service.php">Read More</a>
                                  </div>
                               </div>
                               <div class="col-md-7">
                                  <div class="row mar_right">
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img1.png" alt="#"/></figure>
+                                          <figure><img src="images/waxing.jpg" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
@@ -176,7 +176,7 @@
                                     </div>
                                     <div class="col-md-6">
                                        <div class="agency">
-                                          <figure><img src="images/img2.png" alt="#"/></figure>
+                                          <figure><img src="images/facial.jpg" alt="#" width="422" style="height: 200px"/></figure>
                                           <div class="play_icon">
                                              <a class="play-btn" href="javascript:void(0)"><img src="images/play_icon.png"></a>
                                           </div>
