@@ -216,29 +216,29 @@
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-6 ">
-                           <input class="form_control" placeholder="Your name" type="text" name=" Name" required> 
+                           <input class="form_control" placeholder="Your name" type="text" name="name" required> 
                         </div>
                         <div class="col-md-6">
-                           <input class="form_control" placeholder="Email" type="email" name="Email"> 
+                           <input class="form_control" placeholder="Email" type="email" name="email"> 
                         </div>
                         <div class="col-md-6">
-                           <input class="form_control" placeholder="Phone Number" type="tel" name="Phone Number" required>                          
+                           <input class="form_control" placeholder="Phone Number" type="tel" name="phone-number" required>                          
                         </div>
                         <div class="col-md-6">
-                           <select id="option" name="option">
+                           <select class="form_control" placeholder="Select a service" id="option" name="option">
                               <option value="option1">Manicure</option>
                               <option value="option2">Pedicure</option>
                               <option value="option3">Waxing & Facial</option>
                            </select>
                         </div>
                         <div class="col-md-6 ">
-                           <input class="form_control" placeholder="Time" type="type" name=" Time"> 
+                           <input class="form_control" placeholder="Time" type="time" name="appointment-time" required> 
                         </div>
                         <div class="col-md-6">
-                           <input type="text" class="form_control" id="my_date_picker" placeholder="Select Date" >
+                           <input type="text" class="form_control" id="my_date_picker" placeholder="Select Date" name="appointment-date" required>
                         </div>
                         <div class="col-md-12">
-                           <textarea style=" color: #d0d0cf;" class="textarea" placeholder="Message" type="type" name="message">message </textarea>
+                           <textarea style=" color: #d0d0cf;" class="textarea" placeholder="Message" type="text" name="message">message </textarea>
                         </div>
                         <div class="col-md-12">
                            <button class="send_btn">Send Now</button>
