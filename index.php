@@ -209,23 +209,27 @@
                <div class="col-md-12 ">
                   <div class="titlepage text_align_center">
                      <h2>Make Appointment</h2>
-                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                     <p>Indulge in stunning manicures, chic pedicures, and intricate nail art at Bliss Nail and Spa. Schedule online, call 888-888-8888, or visit 88 Vista Rd, San Antonio, TX 78249 to reserve your spot. Immerse yourself in our clean and safe environment, where beauty meets relaxation. Elevate your nail game and leave with head-turning nails. Don't miss out—book now</p>
                   </div>
                </div>
                <div class="col-md-12">
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-6 ">
-                           <input class="form_control" placeholder="Your name" type="type" name=" Name"> 
+                           <input class="form_control" placeholder="Your name" type="text" name=" Name" required> 
                         </div>
                         <div class="col-md-6">
-                           <input class="form_control" placeholder="Email" type="type" name="Email"> 
+                           <input class="form_control" placeholder="Email" type="email" name="Email"> 
                         </div>
                         <div class="col-md-6">
-                           <input class="form_control" placeholder="Phone Number" type="type" name="Phone Number">                          
+                           <input class="form_control" placeholder="Phone Number" type="tel" name="Phone Number" required>                          
                         </div>
                         <div class="col-md-6">
-                           <input class="form_control" placeholder="Select Massage spa" type="type" name="Select">                          
+                           <select id="option" name="option">
+                              <option value="option1">Manicure</option>
+                              <option value="option2">Pedicure</option>
+                              <option value="option3">Waxing & Facial</option>
+                           </select>
                         </div>
                         <div class="col-md-6 ">
                            <input class="form_control" placeholder="Time" type="type" name=" Time"> 
