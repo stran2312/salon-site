@@ -1,3 +1,13 @@
+<?php
+require_once 'controller/AppointmentController.php';
+
+$appointmentController = new AppointmentController();
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $appointmentController->processAppointmentForm($_POST); // Redirect to the controller method
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
