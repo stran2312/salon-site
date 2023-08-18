@@ -1,3 +1,14 @@
+<?php
+require_once 'ContactController.php';
+
+$contactController = new ContactController();
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $contactController->processContactForm($_POST);
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
